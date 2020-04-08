@@ -28,6 +28,9 @@ const handleUserInput = (data) => {
       case 'd':
         connection.write("Move: right");
         break;
+      case 'l':
+        connection.write("Say: winner");
+        break;
     }
   }
   
