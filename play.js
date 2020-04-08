@@ -6,4 +6,4 @@ const setupInput = require('./input');
 
 
 
-stdin = setupInput();
+stdin = setupInput(conn);
